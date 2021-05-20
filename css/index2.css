@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 1em;
+
+    background-color: #ededed;
+    border: 1px solid #ddd;
+    border-radius: .6em;
+}
+.title {
+    margin:  0 0 .5em;
+
+    font-size: 2em;
+}
+.text {
+    font-size: 1em;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: .5em 1em;
+    margin-right: .6em;
+
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.2;
+    text-decoration: none;
+
+    box-shadow: 0 0 .33em rgba(0, 0, 0, .5);
+    background-color: #0044ac;
+    border-radius: .33em;
+}
+.btn-big {
+    font-size: 2.5em;
+}
